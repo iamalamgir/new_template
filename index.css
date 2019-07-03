@@ -9,13 +9,12 @@ body{
 }
 
 .contemplete {
-    width: 920px;
-    margin: 0 auto;
-    border: 1px solid #000;    
+    width: 960px;
+    margin: 0 auto;    
 }
 
 .templete {
-    width: 920px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -25,13 +24,17 @@ body{
 
 .headersection{
     
-    border: 1px solid #000;
-    width: 920px;
-    height: 387px;
-    /*background: url(images/hero-cover.jpg)repeat fixed 0 0 #e5a4a0;*/
+    width: 960px;
+    height: 460px;
+    background-image: url(images/hero-cover.jpg);
+    background-size: cover;
+    
 }
 
 .headersection img{
-    width: 920px;
-    height: 387px;
+    width: 72px;
+    height: 18px;
+    float: left;
+    margin: 30px 0px 0px 140px;
+    padding: 1px;
 }
