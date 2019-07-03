@@ -5,5 +5,33 @@
 }
 
 body{
-    background-color: #f2f
+    background-color: #67607E
+}
+
+.contemplete {
+    width: 920px;
+    margin: 0 auto;
+    border: 1px solid #000;    
+}
+
+.templete {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.headersection{
+    
+    border: 1px solid #000;
+    width: 920px;
+    height: 387px;
+    /*background: url(images/hero-cover.jpg)repeat fixed 0 0 #e5a4a0;*/
+}
+
+.headersection img{
+    width: 920px;
+    height: 387px;
 }
