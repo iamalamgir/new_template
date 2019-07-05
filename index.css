@@ -39,7 +39,7 @@ body{
     padding: 1px;
 }
 
-ul{
+.menu{
     list-style-type: none;
     margin: 20px 0px 0px 380px;
     padding: 0;
@@ -73,17 +73,66 @@ ul li a{
     margin: 2px 0px 0px 10px;
     cursor: pointer;
     width: 42px;
-    height: 10px;
+    height: 9px;
     border-radius: 1px;
+}
+
+.time{
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    margin: 103px 0px 0px 112px;
+}
+
+span1{
+    color: #FFF200;
+}
+
+span2{
+    color: #FF8A00;
+    margin: 0px 0px 0px 40px;
+}
+
+span3{
+    color: #00B9FF;
+    margin: 0px 0px 0px 40px;
+}
+
+span4{
+    color: #8DC63F;
+    margin: 0px 0px 0px 40px;
+}
+
+.timetext{
+    list-style-type: none;
+    font-size: 13px;
+    color: #FFFFFF;
+    overflow: hidden;
+    margin: 0px 0px 0px 112px; 
+}
+
+.txt1{
+    margin: 0px 0px 0px 0px;
+}
+
+.txt2{
+    margin: 0px 0px 0px 36px;
+}
+
+.txt3{
+    margin: 0px 0px 0px 40px;
+}
+
+.txt4{
+    margin: 0px 0px 0px 27px;
 }
 
 h2{
     color: #ffffff;
     font-size: 30px;
-    margin: 160px 0px 0px 112px;
+    margin: 10px 0px 0px 112px;
 }
 
-p{
+h4{
     color: #ffffff;
     font-size: 13px;
     margin: 10px 0px 0px 112px;

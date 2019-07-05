@@ -10,7 +10,7 @@
         <div class = "headersection templete clear">
             <a href="#"><img src="images/logo1.png" alt="Logo"/></a>
             
-                <ul>
+                <ul class= "menu">
                     <li><a herf= "#">HOME</a></li>
                     <li><a herf= "#">EXPLORE</a></li>
                     <li><a herf= "#">SCHEDULE</a></li>
@@ -19,8 +19,36 @@
                     <li><a herf= "#">BLOG</a></li>
                     <a href="#" class="button">Bey Ticket</a>
                 </ul>
+                <div class= "time">
+                    <span1 id="day"></span1>
+                    <span2 id="hour"></span2>
+                    <span3 id="minute"></span3>
+                    <span4 id="second"></span4>
+                </div>        
+                <ul class= "timetext">
+                    <li class= "txt1">DAY</li>
+                    <li class= "txt2">HOUR</li>
+                    <li class= "txt3">MINUTE</li>
+                    <li class= "txt4">SECOND</li>
+                </ul>
+                <script>
+                    function clock(){
+                        var date = new Date();
+
+                        var day = date.getDay();
+                        var hour = date.getHours();
+                        var minute = date.getMinutes();
+                        var second = date.getSeconds();
+                        
+                        document.getElementById("day").innerHTML = day;
+                        document.getElementById("hour").innerHTML = hour;
+                        document.getElementById("minute").innerHTML = minute;
+                        document.getElementById("second").innerHTML = second;
+                    }
+                    setInterval(clock, 1000);
+                </script>
             <h2>ART WORKSHOP 2019</h2>
-            <p>18 - 19 JANUARY, 2019, DUBLIN</p>
+            <h4>18 - 19 JANUARY, 2019, DUBLIN</h4>
 
         </div>
     </div>
