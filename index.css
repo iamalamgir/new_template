@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #D6D6D6
+    background-color: #FFFFFF;
 }
 
 .contemplete {
@@ -136,4 +136,18 @@ h4{
     color: #ffffff;
     font-size: 13px;
     margin: 10px 0px 0px 112px;
+}
+
+.artsection{
+    background: #FFFFFF;
+    width: 800px;
+    height: 268px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.artsection>div{
+    border: 1px solid #222;
+}
+.artsection>div:nth-child(odd){
+    border: 1px solid #FFCC00;
 }
