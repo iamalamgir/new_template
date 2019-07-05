@@ -151,3 +151,10 @@ h4{
 .artsection>div:nth-child(odd){
     border: 1px solid #FFCC00;
 }
+
+.art1 img{
+    width: 275px;
+    height: 179px;
+    margin: 45px 0px 0px 117px;
+    border-radius: 1px;
+}
